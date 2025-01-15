@@ -13,7 +13,7 @@ body
 {
     display: flex;
     justify-content: space-between;
-    margin: 31px 150px 31px 150px;
+    margin: 31px 100px 31px 150px;
     align-items: center;
 }
 .nav-h2
@@ -293,4 +293,46 @@ section .first-page .title-description
     text-align: center;
     border: none;
     color: #FFFFFF;
+}
+/* yunus-sir-section */
+.yunus-sir 
+{
+    position: relative;
+}
+.yunus-sir-history 
+{
+    position: absolute;
+    top: 29px;
+    color: #3E3E3E;
+    padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+.quote-bg
+{
+    padding-left: 24px;
+    padding-top: 48px;
+
+}
+.yunus-sir-name
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+    padding-left: 24px;
+
+}
+.yunus-sir-title
+{
+    color: #6E6E6E;
+    padding-left: 24px;
+    padding-bottom: 48px;
+}
+.yunus-sir-page
+{
+    width: 1280px;
+    margin: 32px 150px 80px 150px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
 }
