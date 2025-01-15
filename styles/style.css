@@ -336,3 +336,73 @@ section .first-page .title-description
     background-color: #FFFFFF;
     border-radius: 16px;
 }
+
+/* Opinion page section */
+.opinion{
+    margin: 80px 81px 24px 150px;
+}
+.opinion-table-bg
+{
+    background-color: #FFFFFF;
+    width: 1215px;
+    padding: 32px;
+    border-radius: 16px;
+    /* height: 409px; */
+}
+.opinion-table-title
+{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.opinion-table
+{
+    /* border: 1px #C0C0C0 solid; */
+    width: 1220px;
+    border-collapse: collapse;
+}
+tr, td
+{
+    
+    border: 1px #C0C0C0 solid;
+    text-align: start;
+}
+th
+{
+    text-align: start;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 35px;
+}
+td{
+    font-weight: 600;
+}
+.opinion-table .table-btns
+{
+    font-weight: 500;
+    background-color: #C6E4D6;
+    border-radius: 4px;
+    width: 152px;
+    height: 44px;
+    border: 1px #0E0E0E solid;
+}
+.main-row
+{
+    background-color: #C6E4D6;
+    width: 1216px;
+    height: 72px;
+}
+.row-1, .row-2, .row-3
+{
+    width: 1216px;
+    height: 92px;
+}
+.data
+{
+    padding: 37px 30px;
+}
+.opinion-table button
+{
+    margin: 20px 30px 20px 120px;
+}
+/* Recent news section */
