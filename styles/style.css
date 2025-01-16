@@ -3,8 +3,17 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
-
+.for-hover:hover 
+{
+    background-color: #808483;
+    color: #808483;
+}
+a, button, .for-hover
+{
+    cursor: pointer;
+}
 body
 {
     background-color: #F5F5F5;
@@ -698,3 +707,36 @@ td{
     padding: 17px 34px;
 }
 /* footer section */
+footer
+{
+    padding-top: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+footer .icons img
+{
+    width: 26px;
+    height: 24px;
+}
+footer .title
+{
+    text-align: center;
+    font-size: 32px;
+    
+}
+footer .icons
+{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+footer hr
+{
+    width: 1122px;
+    align-items: center;
+    color: #E7E7E7;
+}
