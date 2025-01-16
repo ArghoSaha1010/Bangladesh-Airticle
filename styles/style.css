@@ -7,7 +7,7 @@
     padding: 0;
     
 }
-a, button, .for-hover
+a, button, select
 {
     cursor: pointer;
 }
