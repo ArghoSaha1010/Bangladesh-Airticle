@@ -452,7 +452,7 @@ td{
 {
     display: flex;
     gap: 32px;
-    align-items: center;
+    flex-direction: column;
 }
 .part-one .info
 {
@@ -469,6 +469,7 @@ td{
     font-size: 32px;
     font-weight: bold;
     color: #3E3E3E;
+    /* margin: 80px 150px 24px 150px; */
 }
 .part-one .info .para
 {
@@ -489,6 +490,12 @@ td{
     border: none;
 }
 /* part-two */
+.page-two-fullbox .part-one .part-one-title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    /* padding-bottom: -17px; */
+}
 .satelite
 {
     background-color: #FFFFFF;
