@@ -427,3 +427,125 @@ td{
 {
     color: #545454;
 }
+/* Bangladesh Launches New Satellite section */
+/* part-one  */
+.satelite
+{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    width: 1183px;
+    margin: 0px 150px 24px 150px;
+    padding: 48px;
+}
+.satelite .part-one .satelite-bg
+{
+    border-radius: 24px;
+    width: 408px;
+}
+.date-and-time
+{
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+}
+.part-one
+{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.part-one .info
+{
+    width: 744px;
+}
+.part-one .info img
+{
+    width: 134px;
+    height: 40px;
+    margin: 12px auto;
+}
+.part-one .info h1
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #3E3E3E;
+}
+.part-one .info .para
+{
+    margin: 12px auto 32px auto;
+    color: #575757;
+}
+.part-one .info .date, .part-one .info .time{
+    color: #575757;
+}
+.part-one .info button
+{
+    background-color: #006A50;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    width: 139px;
+    height: 48px;
+    border: none;
+}
+/* part-two */
+.satelite
+{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    width: 1183px;
+    margin: 0px 150px 24px 150px;
+    padding: 48px;
+}
+.satelite .part-two .satelite-bg
+{
+    border-radius: 24px;
+    width: 408px;
+}
+.date-and-time
+{
+    display: flex;
+    justify-content: left;
+    gap: 12px;
+}
+.part-two
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+    align-items: center;
+}
+.part-two .info
+{
+    width: 744px;
+}
+.part-two .info img
+{
+    width: 134px;
+    height: 40px;
+    margin: 12px auto;
+}
+.part-two .info h1
+{
+    font-size: 32px;
+    font-weight: bold;
+    color: #3E3E3E;
+}
+.part-two .info .para
+{
+    margin: 12px auto 32px auto;
+    color: #575757;
+}
+.part-two .info .date, .part-two .info .time{
+    color: #575757;
+}
+.part-two .info button
+{
+    background-color: #006A50;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    width: 139px;
+    height: 48px;
+    border: none;
+}
