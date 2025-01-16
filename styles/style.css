@@ -448,12 +448,11 @@ td{
     justify-content: left;
     gap: 12px;
 }
-.part-one
+.satelite .part-one
 {
     display: flex;
     gap: 32px;
-    flex-direction: column;
-    gap: 0;
+    flex-direction: row;
 }
 .part-one .info
 {
