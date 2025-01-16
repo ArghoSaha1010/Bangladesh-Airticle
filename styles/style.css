@@ -1,3 +1,4 @@
+/* font diyechilam kaj font dhortese na */
 /* shared section */
 *{
     margin: 0;
@@ -385,6 +386,8 @@ td{
     width: 152px;
     height: 44px;
     border: 1px #0E0E0E solid;
+    padding-right: 10px;
+    text-align: center;
 }
 .main-row
 {
@@ -400,9 +403,27 @@ td{
 .data
 {
     padding: 37px 30px;
+    width: 970px;
 }
-.opinion-table button
-{
-    margin: 20px 30px 20px 120px;
+
+.test-btn-on-table{
+    padding: 20px 0px 20px 20px;
+}
+.opinion-table .Select-Your-Opinion{
+    padding-left: 6px;
 }
 /* Recent news section */
+.Recent-News
+{
+    margin: 80px 90px 32px 150px;
+}
+.Recent-News .title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.Recent-News .paragraph
+{
+    color: #545454;
+}
