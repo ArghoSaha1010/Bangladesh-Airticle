@@ -640,3 +640,61 @@ td{
     text-align: center;
     margin: 5px 25px 0px 129px;
 }
+/* subcribe section */
+.subcribe
+{
+    width: 1280px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    margin: 80px 150px 80px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.subcribe .news-title
+{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.subcribe .news-description
+{
+    color: #464F4B;
+    margin-bottom: 24px;
+    width: 622px;
+    text-align: center;
+}
+.subcribe .subcribe-footer
+{
+    color: #464F4B;
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.input-section 
+{
+
+    margin: 0px 265px;
+}
+.input-section .input-btn
+{
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    border:none;
+    color: #B7B7B7;
+    padding: 0px 0px 0px 10px;
+}
+.input-section .Subscribe-btn
+{
+    width: 140px;
+    height: 57px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    background-color: #006A50;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 17px 34px;
+}
+/* footer section */
